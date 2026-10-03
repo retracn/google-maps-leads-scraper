@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "google-maps-leads": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--tools",
+        "automationnation/google-maps-leads"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN"
+      }
+    }
+  }
+}
