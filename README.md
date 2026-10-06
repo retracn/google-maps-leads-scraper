@@ -4,7 +4,7 @@
 
 Google Maps Leads Scraper is an Apify Actor that turns a Google Maps search into ready-to-contact business leads in any country: phone, website, emails and social profiles, a website audit, a HOT/WARM/COLD lead score and an AI-written outreach email per lead, at $0.03 per lead. Filter for businesses without a website, unclaimed listings or new openings.
 
-**Price:** $0.03 per lead ($0.024 on Gold) · **Run it:** [https://apify.com/automationnation/google-maps-leads](https://apify.com/automationnation/google-maps-leads) · **Guide:** [https://retracn.github.io/automationnation-actors/google-maps-leads/](https://retracn.github.io/automationnation-actors/google-maps-leads/)
+**Price:** $0.03 per lead ($0.024 on Gold); $0.08 per business found with the no-website or unclaimed filters · **Run it:** [https://apify.com/automationnation/google-maps-leads](https://apify.com/automationnation/google-maps-leads) · **Guide:** [https://retracn.github.io/automationnation-actors/google-maps-leads/](https://retracn.github.io/automationnation-actors/google-maps-leads/)
 
 ## Quick facts
 
@@ -113,10 +113,10 @@ Local config for Claude Desktop / Cursor — [`mcp/claude_desktop_config.json`](
 Any country Google Maps covers. Set the two-letter country code so phones are formatted and searches use local IPs when needed.
 
 **Can it find businesses without a website?**
-Yes: switch on "Only businesses without a website" to get local businesses with no website on Google Maps, each with an outreach message pitching one.
+Yes: switch on "Only businesses without a website" to get local businesses with no website on Google Maps, each with an outreach message pitching one. These cost $0.08 each, since finding one takes about ten listing checks.
 
 **How much does it cost?**
-$0.03 per lead on Apify's Free plan ($0.024 on Gold and above). Businesses removed by your filters are free.
+$0.03 per lead on Apify's Free plan ($0.024 on Gold and above). With "Only businesses without a website" or "Only unclaimed listings" on, each matching business costs $0.08, because finding one means checking about ten listings. Businesses removed by your filters are free.
 
 ## More from AutomationNation
 
